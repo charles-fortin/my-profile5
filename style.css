@@ -1,0 +1,139 @@
+h1 {
+	height: 18px;
+	text-align: center;
+	color: #4d774d;
+}
+
+h2 {
+	height: 10px;
+	text-align: center;
+	color: #83AD83;
+}
+
+
+body{
+	background-color: #CADFCA;
+}
+
+.page{
+	width: 780px;
+	margin: auto;
+	text-align: center;
+	font-size: 16px;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	padding: 70px,
+	border: 5px solid #3388CC;
+	box-shadow: 2px, 4px, 3px black;
+	border-radius: 7px;
+}
+.photo {
+	width:200px;
+	height:250px;
+	padding:15px;
+	border-radius: 50%;
+	margin: auto;
+}
+
+.cadre{
+	background-color: #F0EFEF;
+	border: solid;
+	border-style: none;
+	width: 800px;
+	margin: 50px auto;
+	padding: 25px;
+	box-shadow: 0px 5px 15px grey;
+	border-radius: 8% 20%;
+	}
+
+.cadre1{
+	background-color: #F0EFEF;
+	border: solid;
+	border-style: none;
+	width: 800px;
+	margin: 50px auto;
+	padding: 15px;
+	box-shadow: 0px 5px 15px grey;
+	border-radius: 4px;
+	}
+
+.cadre2{
+	background-color: #F0EFEF;
+	border: solid;
+	border-style: none;
+	width: 800px;
+	margin: 50px auto;
+	padding: 15px;
+	box-shadow: 0px 5px 15px grey;
+	border-radius: 4px;
+	}
+
+.cadre3 {
+	background-color: #F0EFEF;
+	border: solid;
+	border-style: none;
+	width: 800px;
+	margin: 50px auto;
+	padding: 15px;
+	box-shadow: 0px 5px 15px grey;
+	border-radius: 4px;
+}
+
+.cadre4 {
+	background-color: #F0EFEF;
+	border: solid;
+	border-style: none;
+	width: 800px;
+	margin: 50px auto;
+	padding: 15px;
+	box-shadow: 0px 5px 15px grey;
+	border-radius: 4px;
+}
+
+.logo i {
+	font-size: 50px;
+	color: #07440B
+}
+
+.logo {
+	list-style: none;
+	padding-left: 0px;
+	padding-top: 10px;
+}
+
+.logo li{
+	display: inline;
+	padding: 25px;
+}
+
+.logo i{
+	color : #07440B;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 800px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.btn-green {
+	background-color: #BCBCBC;
+	color: white;
+	text-decoration: none;
+	border: solid;
+	border-style: none;
+	width: 800px;
+	margin: 50px auto;
+	padding: 15px;
+	box-shadow: 0px 5px 5px rgba(5,5,5,0.2);
+	border-radius: 4px;
+}
